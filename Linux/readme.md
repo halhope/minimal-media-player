@@ -6,6 +6,7 @@ If `ffplay` is not already running, it's started, playing the [Groove Salad](htt
 
 (I don't expect to normally have `ffplay` running for any other reason, so this approach works for me.)
 
+* Ensure the script is executable: `chmod +x /path/to/groove.sh`
 ____ 
 
 ## Adding a button
