@@ -27,11 +27,11 @@ An icon can be set at the first tab:
 
 Check permissions:
 
-![general](/Linux/images/button_permissions.png)
+![button_permissions](/Linux/images/button_permissions.png)
 
 Select Advanced Permissions and uncheck "Run in terminal" to prevent one from opening.
 
-![advanced_permissions.png](/LInux/images/advanced_permissions.png)
+![advanced_permissions](/LInux/images/advanced_permissions.png)
 
 Give the application a title and define the path(s) accordingly.
 
