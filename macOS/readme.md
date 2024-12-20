@@ -10,6 +10,13 @@ The audio source is configurable from the application window, with [Groove Salad
 
 A dropdown list is prepopulated with additional streams from [somafm.com](https://somafm.com/), and an input field is available for the user to enter a custom URL. 
 
+![application](/macOS/images/application_window.png)
+
+Click the button on the menu bar to turn the stream on or off
+
+![flow](/macOS/images/flow.png): playing
+![dam](/macOS/images/dam.png): stopped
+
 _____
 
 ## Installation
@@ -24,5 +31,5 @@ _____
  
 * The application remains visible in the dock; however, when set to open at login, the menu bar button is available after reboot without spawning an unnecessary application window, which is good enough for me.
 
-Download and unzip [Beaver Receiver.zip](Application%2FBeaver%20Receiver.zip) and drag the application to the Applications directory (Command+Shift+A).
+Download and unzip [Beaver Receiver.zip](/macOS/Application/Beaver%20Receiver.zip) and drag the application to the Applications directory (Command+Shift+A).
 
