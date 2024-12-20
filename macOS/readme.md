@@ -15,6 +15,7 @@ A dropdown list is prepopulated with additional streams from [somafm.com](https:
 Click the button on the menu bar to turn the stream on or off
 
 ![flow](/macOS/images/flow.png): playing
+
 ![dam](/macOS/images/dam.png): stopped
 
 _____
