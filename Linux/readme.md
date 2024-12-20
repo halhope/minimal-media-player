@@ -31,7 +31,7 @@ Check permissions:
 
 Select Advanced Permissions and uncheck "Run in terminal" to prevent one from opening.
 
-![advanced_permissions](/LInux/images/advanced_permissions.png)
+![advanced_permissions](/Linux/images/advanced_permissions.png)
 
 Give the application a title and define the path(s) accordingly.
 
