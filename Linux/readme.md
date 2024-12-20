@@ -13,7 +13,7 @@ ____
 
 ## Making a button
 
-I added a [KDE Plasmoid](https://userbase.kde.org/Plasma) to the menu bar by right-clicking it to add/manage widgets, and selecting the Quicklaunch widget.
+I added a [KDE Plasmoid](https://userbase.kde.org/Plasma) to the menu bar by right-clicking it to add/manage widgets, and selecting Quicklaunch.
 
 ![launcher](/Linux/images/launch_button.png)
 
