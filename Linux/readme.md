@@ -29,13 +29,11 @@ Check permissions:
 
 ![button_permissions](/Linux/images/button_permissions.png)
 
-Select Advanced Permissions and uncheck "Run in terminal" to prevent one from opening.
+Select Advanced Options at the Application tab and uncheck "Run in terminal" to prevent one from opening.
 
 ![advanced_permissions](/Linux/images/advanced_permissions.png)
 
 Give the application a title and define the path(s) accordingly.
-
-In my case, it's in a hidden directory (preceded by a dot) in my home directory.
 
 Note that on most Linux systems, the application path will just be `/bin/bash`.
 
