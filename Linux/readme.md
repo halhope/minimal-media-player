@@ -1,5 +1,4 @@
 # Groove Salad button for Linux
-___
 
 With a button placed rightmost on my menu bar, I'm able to throw the cursor into the corner and click to immediately stop/resume playback of an audio stream.
 
