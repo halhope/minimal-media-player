@@ -1,4 +1,9 @@
 # Groove Salad button for Linux
+___
+
+With a button placed rightmost on my menu bar, I'm able to throw the cursor into the corner and click to immediately stop/resume playback of an audio stream.
+
+![menu_button](/Linux/images/menu_button.png)
 
 By default the [groove.sh](groove.sh) shell script simply checks to see if `ffplay` is already running, and kills it if so. 
 
@@ -37,12 +42,6 @@ Give the application a title and define the path(s) accordingly.
 
 Provide the file path for the downloaded `groove.sh` at the Application tab:
 
-**Note** that on most Linux systems, the application path will just be `/bin/bash`.
-
 ![application_details](/Linux/images/application_details.png)
 
-___
-
-With the button placed rightmost on my menu bar, I'm able to throw the cursor into the corner and click to quickly stop/resume playback.
-
-![menu_button](/Linux/images/menu_button.png)
+**Note** that on most Linux systems, the application path will just be `/bin/bash`.
