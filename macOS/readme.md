@@ -22,7 +22,7 @@ _____
 
 * The application allows user input, and barely checks the syntax. It does as little as possible to just start or stop a selected stream. I'm not responsible for anything else that may happen on your system. View the source code [here](Source).
  
-* The application does remain visible in the dock; however, when set to open at login, the menu bar button is available after reboot, without spawning an unnecessary application window.
+* The application remains visible in the dock; however, when set to open at login, the menu bar button is available after reboot without spawning an unnecessary application window, which is good enough for me.
 
-Download and unzip [Beaver Receiver.zip](Application%2FBeaver%20Receiver.zip) to add the application to the Applications directory (Command+Shift+A). 
+Download and unzip [Beaver Receiver.zip](Application%2FBeaver%20Receiver.zip) and drag the application to the Applications directory (Command+Shift+A).
 
