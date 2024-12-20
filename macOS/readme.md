@@ -24,5 +24,5 @@ _____
 
 * The application does remain visible in the dock; however, when set to open at login, the menu bar button is available after reboot, without spawning an unnecessary application window.
 
-Download and unzip [Beaver Receiver.zip](Beaver Receiver.zip) to add the application to the Applications directory (Command+Shift+A). 
+Download and unzip [Beaver Receiver.zip](Application%2FBeaver%20Receiver.zip) to add the application to the Applications directory (Command+Shift+A). 
 
