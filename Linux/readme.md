@@ -35,9 +35,9 @@ Select Advanced Options at the Application tab and uncheck "Run in terminal" to 
 
 Give the application a title and define the path(s) accordingly.
 
-Note that on most Linux systems, the application path will just be `/bin/bash`.
-
 Provide the file path for the downloaded `groove.sh` at the Application tab:
+
+**Note** that on most Linux systems, the application path will just be `/bin/bash`.
 
 ![application_details](/Linux/images/application_details.png)
 
