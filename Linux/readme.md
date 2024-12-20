@@ -1,6 +1,6 @@
 # Groove Salad button for Linux
 
-By default the `groove.sh` shell script simply checks to see if `ffplay` is already running, and kills it if so. 
+By default the [groove.sh](groove.sh) shell script simply checks to see if `ffplay` is already running, and kills it if so. 
 
 If `ffplay` is not already running, it's started, playing the [Groove Salad](https://somafm.com/groovesalad/) stream from [somafm.com](https://somafm.com/).
 
@@ -38,6 +38,6 @@ Provide the file path for the downloaded `groove.sh` at the Application tab:
 
 ___
 
-With the button placed rightmost on my menu bar, I'm able to quickly throw the cursor into the corner and click to quickly stop/resume playback.
+With the button placed rightmost on my menu bar, I'm able to throw the cursor into the corner and click to quickly stop/resume playback.
 
 ![menu_button](/Linux/images/menu_button.png)
