@@ -29,6 +29,10 @@ Check permissions:
 
 ![general](/Linux/images/button_permissions.png)
 
+Select Advanced Permissions and uncheck "Run in terminal" to prevent one from opening.
+
+![advanced_permissions.png](/LInux/images/advanced_permissions.png)
+
 Give the application a title and define the path(s) accordingly.
 
 In my case, it's a hidden file (preceded by a dot) in my home directory.
