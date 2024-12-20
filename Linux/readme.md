@@ -4,7 +4,7 @@ With a button placed rightmost on my menu bar, I'm able to throw the cursor into
 
 ![menu_button](/Linux/images/menu_button.png)
 
-The [groove.sh](groove.sh) shell script simply checks to see if `ffplay` is already running, and kills it if so. 
+The [groove.sh](groove.sh) shell script simply checks to see if [ffplay](https://ffmpeg.org/download.html) is already running, and kills it if so. 
 
 If `ffplay` is not already running, it's started, playing the [Groove Salad](https://somafm.com/groovesalad/) stream from [somafm.com](https://somafm.com/).
 
