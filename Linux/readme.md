@@ -35,7 +35,7 @@ Select Advanced Permissions and uncheck "Run in terminal" to prevent one from op
 
 Give the application a title and define the path(s) accordingly.
 
-In my case, it's a hidden file (preceded by a dot) in my home directory.
+In my case, it's in a hidden directory (preceded by a dot) in my home directory.
 
 Note that on most Linux systems, the application path will just be `/bin/bash`.
 
