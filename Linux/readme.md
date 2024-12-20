@@ -7,11 +7,13 @@ If `ffplay` is not already running, it's started, playing the [Groove Salad](htt
 (I don't expect to normally have `ffplay` running for any other reason, so this approach works for me.)
 
 * Ensure the script is executable: `chmod +x /path/to/groove.sh`
+* Edit the script to change the path if you don't want to groove. 🤷
+  
 ____ 
 
-## Adding a button
+## Making a button
 
-I added a [KDE Plasmoid](https://userbase.kde.org/Plasma) to the menu bar by right-clicking it to add/manage widgets, and selecting the [Application Launcher](https://userbase.kde.org/Plasma_application_launchers).
+I added a [KDE Plasmoid](https://userbase.kde.org/Plasma) to the menu bar by right-clicking it to add/manage widgets, and selecting an [Application Launcher](https://userbase.kde.org/Plasma_application_launchers).
 
 ![launcher](/Linux/images/launch_button.png)
 
