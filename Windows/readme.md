@@ -18,17 +18,17 @@ Click the button to turn the stream on or off:
 
 * Click and hold to move the button to a new position on the screen (hold for at least one second to avoid toggling playback).
 
-* Roll the mouse wheel over the button to adjust the volume.
+* Roll the mouse wheel (scroll up/down) over the button to adjust the volume.
 
-* Right-click to select from a list of sources or define a new stream.
+* Right-click the button to select from a list of sources or define a new stream.
 
 ![context_menu.png](images/context_menu.png)
 
-* Hover to see the current selection.
+* Hover over the button to see the current selection.
 
 ![hover.png](images/hover.png)
 
-* The button's position and source selection are preserved for the next application launch.
+* The button's position and source selection are preserved between application launches.
 
 ### Notes 
 
