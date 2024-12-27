@@ -8,15 +8,15 @@ The Beaver Receiver application adds a configurable on/off button for a single s
 
 ![stopped.png](images/stopped.png): stopped
 
-Click and hold to move the button to a new position on the screen (hold for at least one second to avoid toggling playback).
+* Click and hold to move the button to a new position on the screen (hold for at least one second to avoid toggling playback).
 
-Roll the mouse wheel over the button to adjust the volume.
+* Roll the mouse wheel over the button to adjust the volume.
 
-Right-click to select from a list of sources or define a new stream.
+* Right-click to select from a list of sources or define a new stream.
 
 ![context_menu.png](images/context_menu.png)
 
-Hover to see the current selection.
+* Hover to see the current selection.
 
 ![hover.png](images/hover.png)
 
