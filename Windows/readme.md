@@ -35,7 +35,7 @@ _____
 ## Installation
 
 * Minimum version: Windows 10
-* Build and testing: Windows 10, 11
+* Build and testing: Windows 10 Pro (21H1), Windows 11 Pro (23H2)
 
 ### Notes 
 
