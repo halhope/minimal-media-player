@@ -30,6 +30,13 @@ Click the button to turn the stream on or off:
 
 * The button's position and source selection are preserved between application launches.
 
+_____
+
+## Installation
+
+* Minimum version: Windows 10
+* Build and testing: Windows 10, 11
+
 ### Notes 
 
 * The application is currently unsigned, so clicking "More Info" and choosing "Run anyway" is required the first time the application is launched. View the source code [here](Source).
