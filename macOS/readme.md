@@ -12,10 +12,11 @@ A dropdown list is prepopulated with additional streams from [somafm.com](https:
 
 ![application](/macOS/images/application_window.png)
 
-Click the button on the menu bar to turn the stream on or off
+Click the button on the menu bar to turn the stream on or off:
 
-![flow](/macOS/images/flow.png): playing
-![dam](/macOS/images/dam.png): stopped
+![flow](/macOS/images/flow.png)   indicates the stream is started
+
+![dam](/macOS/images/dam.png)   indicates the stream is stopped
 
 _____
 
