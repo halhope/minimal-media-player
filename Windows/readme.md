@@ -1,12 +1,20 @@
-![icon](/Windows/images/256.png)
-
 # Beaver Receiver
 
-* The Beaver Receiver application adds a configurable on/off button for a single stream of audio.
+![icon](/Windows/images/256.png)
 
-![streaming.png](images/streaming.png): playing
+## Movable button for Windows
 
-![stopped.png](images/stopped.png): stopped
+The Beaver Receiver application adds a configurable on/off button, which  starts or stops an audio stream.
+
+The audio source is configurable from the button's context menu, with [Groove Salad](https://somafm.com/groovesalad/) used by default.
+
+A dropdown list is prepopulated with additional streams from [somafm.com](https://somafm.com/), and an input field is available for the user to enter a custom URL. 
+
+Click the button to turn the stream on or off:
+
+![streaming.png](images/streaming.png)   indicates the stream is started
+
+![stopped.png](images/stopped.png)   indicates the stream is stopped
 
 * Click and hold to move the button to a new position on the screen (hold for at least one second to avoid toggling playback).
 
