@@ -2,7 +2,7 @@
 
 # Beaver Receiver
 
-The Beaver Receiver application adds a configurable on/off button for a single stream of audio.
+* The Beaver Receiver application adds a configurable on/off button for a single stream of audio.
 
 ![streaming.png](images/streaming.png): playing
 
@@ -20,7 +20,7 @@ The Beaver Receiver application adds a configurable on/off button for a single s
 
 ![hover.png](images/hover.png)
 
-The button position and last-played selection are preserved the next time the application is launched.
+* The button position and last-played selection are preserved the next time the application is launched.
 
 ### Notes 
 
