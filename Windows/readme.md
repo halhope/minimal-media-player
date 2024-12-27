@@ -28,7 +28,7 @@ Click the button to turn the stream on or off:
 
 ![hover.png](images/hover.png)
 
-* The button position and last-played selection are preserved the next time the application is launched.
+* The button's position and source selection are preserved for the next application launch.
 
 ### Notes 
 
