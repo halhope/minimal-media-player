@@ -4,7 +4,7 @@
 
 ## Movable button for Windows
 
-The Beaver Receiver application adds a configurable on/off button, which  starts or stops an audio stream.
+The Beaver Receiver application adds a simple on/off button, which starts or stops an audio stream.
 
 The audio source is configurable from the button's context menu, with [Groove Salad](https://somafm.com/groovesalad/) used by default.
 
@@ -18,17 +18,23 @@ Click the button to turn the stream on or off:
 
 * Click and hold to move the button to a new position on the screen (hold for at least one second to avoid toggling playback).
 
-* Roll the mouse wheel over the button to adjust the volume.
+* Roll the mouse wheel (scroll up/down) over the button to adjust the volume.
 
-* Right-click to select from a list of sources or define a new stream.
+* Right-click the button to select from a list of sources or define a new stream.
 
 ![context_menu.png](images/context_menu.png)
 
-* Hover to see the current selection.
+* Hover over the button to see the current selection.
+    
+* The button's position and source selection are preserved between application launches.
 
-![hover.png](images/hover.png)
+_____
 
-* The button position and last-played selection are preserved the next time the application is launched.
+
+## Installation
+* Minimum version: Windows 10
+* Build and testing: Windows 10 Pro (21H1), Windows 11 Pro (23H2)
+
 
 ### Notes 
 
