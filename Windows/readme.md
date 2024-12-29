@@ -30,7 +30,7 @@ Click the button to turn the stream on or off:
     
 * The button's position and source selection are preserved between application launches.
 
-Click on the icon on the menu bar to show/hide the button or exit the application.
+* The Beaver Receiver taskbar icon can be used to show/hide the button or exit the application.
 
 _____
 
