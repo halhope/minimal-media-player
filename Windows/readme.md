@@ -18,9 +18,7 @@ Click the button to turn the stream on or off:
 
 * Roll the mouse wheel (scroll up/down) over the button to adjust the volume.
 
-* Right-click the button to select from a prepopulated list of streams from [somafm.com](https://somafm.com/)
-
-* Or enter a custom URL. 
+* Right-click the button to select from a prepopulated list of streams from [somafm.com](https://somafm.com/), or enter a custom URL. 
 
 ![context_menu.png](images/context_menu.png)
 
