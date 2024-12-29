@@ -22,11 +22,11 @@ Click the button to turn the stream on or off:
 
 * Or enter a custom URL. 
 
-![context_menu](images/context_menu.png)
+![context_menu.png](images/context_menu.png)
 
 * Hover over the button to see the current selection.
 
-![hover](/images/hover.png)
+![hover.png](/images/hover.png)
     
 * The button's position and source selection are preserved between application launches.
 
