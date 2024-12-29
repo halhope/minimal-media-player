@@ -8,8 +8,6 @@ The Beaver Receiver application adds a simple on/off button, which starts or sto
 
 The audio source is configurable from the button's context menu, with [Groove Salad](https://somafm.com/groovesalad/) used by default.
 
-A dropdown list is prepopulated with additional streams from [somafm.com](https://somafm.com/), and an input field is available for the user to enter a custom URL. 
-
 Click the button to turn the stream on or off:
 
 ![streaming.png](images/streaming.png)   indicates the stream is started
@@ -20,7 +18,9 @@ Click the button to turn the stream on or off:
 
 * Roll the mouse wheel (scroll up/down) over the button to adjust the volume.
 
-* Right-click the button to select from a list of sources or define a new stream.
+* Right-click the button to select from a prepopulated list of streams from [somafm.com](https://somafm.com/)
+
+* Or enter a custom URL. 
 
 ![context_menu.png](images/context_menu.png)
 
