@@ -26,7 +26,7 @@ Click the button to turn the stream on or off:
 
 * Hover over the button to see the current selection.
 
-![hover.png](/images/hover.png)
+![hover.png](images/hover.png)
     
 * The button's position and source selection are preserved between application launches.
 
