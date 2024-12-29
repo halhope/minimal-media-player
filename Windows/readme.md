@@ -30,6 +30,7 @@ Click the button to turn the stream on or off:
 
 * The Beaver Receiver taskbar icon can be used to show/hide the button or exit the application.
 
+![right_click_icon.png](images/right_click_icon.png)
 _____
 
 
