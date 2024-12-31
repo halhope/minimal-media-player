@@ -46,4 +46,4 @@ _____
 * Since nothing is installed by the application, removal is as simple as deleting the Beaver Receiver folder (no uninstall required).
 * That also means it doesn't run in the system tray or prompt to add a shortcut to launch after installing, so you'll need to handle that part of the configuration.
  
-Download and unzip [Beaver Receiver.zip](/Windows/Application/Beaver_Receiver.zip) and put the folder somewhere handy. Find the application inside to launch Beaver Receiver. Once running, it can be pinned to the Taskbar or added to Startup programs, etc.
+Download and unzip [Beaver Receiver.zip](/Windows/Application/Beaver%20Receiver.zip) and put the folder somewhere handy. Find the application inside to launch Beaver Receiver. Once running, it can be pinned to the Taskbar or added to Startup programs, etc.
