@@ -34,3 +34,8 @@ _____
 
 Download and unzip [Beaver_Receiver.zip](/macOS/Application/Beaver_Receiver.zip) and drag the application to the Applications directory (Command+Shift+A).
 
+_____
+
+### Update 1.1
+
+* added independent volume control to application window

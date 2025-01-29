@@ -11,7 +11,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         }
     }
     @Published var playbackStatus: String = "Stopped"
-
+    @Published var volume: Float
     override init() {
         // Load the saved URL from UserDefaults or default to the Groove Salad stream
         if let savedURLString = UserDefaults.standard.string(forKey: "lastStreamURL"),
@@ -20,18 +20,22 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         } else {
             self.currentStreamURL = URL(string: "https://ice4.somafm.com/groovesalad-128-aac")!
         }
+        let savedVolume = UserDefaults.standard.float(forKey: "playerVolume")
+        let initialVolume = savedVolume > 0.0 ? savedVolume : 1.0 // Ensure a valid default
+        
+        self.volume = initialVolume
         super.init()
     }
-
+    
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupMenuBar()
         playbackStatus = "Stopped"  // Ensure the app starts with music stopped
     }
-
+    
     private func setupMenuBar() {
         // Create the status item for the menu bar
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-
+        
         // Set the icon for the menu bar button
         if let button = statusItem.button {
             button.title = "🪵" // Initial icon for "Play"
@@ -39,7 +43,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
             button.target = self
         }
     }
-
+    
     // Change access level to internal or public
     @objc func togglePlayback() {
         if let player = player, player.timeControlStatus == .playing {
@@ -55,18 +59,23 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
             statusItem.button?.title = "💧" // Icon for "Stop"
         }
     }
-
+    
     func setStreamURL(url: URL) {
         currentStreamURL = url
         playbackStatus = "Stopped" // Ensure it starts as stopped
-
+        
         // Ensure the player is paused if it's playing
         player?.pause()
         
         // Create a new player item with the selected stream URL, but don't start playback
         let playerItem = AVPlayerItem(url: url)
         player = AVPlayer(playerItem: playerItem)
-        
-        // No automatic playback here, just prepare the player
+        player?.volume = volume // Ensure volume is applied to new stream
+    }
+    func setVolume(level: Float) {
+        volume = level
+        player?.volume = level
+        UserDefaults.standard.set(level, forKey: "playerVolume")
     }
 }
+

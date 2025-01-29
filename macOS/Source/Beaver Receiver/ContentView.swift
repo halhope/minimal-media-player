@@ -118,6 +118,15 @@ struct ContentView: View {
             .padding(.horizontal)
 
             Spacer()
+            VStack {
+                Text("Volume")
+                Slider(value: $appDelegate.volume, in: 0.0...1.0, step: 0.01) { _ in
+                    appDelegate.setVolume(level: appDelegate.volume)
+                }
+            }
+            .padding(.horizontal)
+
+            Spacer()
 
             // Current status and stream URL
             VStack {
@@ -131,6 +140,7 @@ struct ContentView: View {
                     .foregroundColor(appDelegate.playbackStatus == "Playing" ? .green : .red)
             }
             .padding(.bottom, 20)
+            
         }
         .padding()
         .alert(isPresented: $showInvalidURLAlert) {
