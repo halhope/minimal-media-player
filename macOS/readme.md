@@ -22,14 +22,10 @@ _____
 
 ## Installation
 
-* Minimum version: macOS 10.15 (Catalina)
-* Build and testing: macOS 15.0.1 (Sequoia)
+* Minimum version: macOS 12.4 (Monterey)
+* Build and testing: macOS 15.3.1 (Sequoia)
 
 ### Notes 
-* The application is currently unsigned, so depending on macOS version, right-clicking on the icon may be required the first time the application is launched.
 
-* The application allows user input, and barely checks the syntax. It does as little as possible to simply start or stop a selected stream. I'm not responsible for anything else that may happen on your system. View the source code [here](Source).
- 
+* [Install from the App Store](https://apps.apple.com/us/app/beaver-receiver/id6743641943), or download and unzip [Beaver_Receiver.zip](/macOS/Application/Beaver_Receiver.zip) and drag the application to the Applications directory (Command+Shift+A).
 * The application remains visible in the dock; however, when set to open at login, the menu bar button is available after reboot without spawning an unnecessary application window, which is good enough for me.
-
-Download and unzip [Beaver_Receiver.zip](/macOS/Application/Beaver_Receiver.zip) and drag the application to the Applications directory (Command+Shift+A).
