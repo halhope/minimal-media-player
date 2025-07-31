@@ -1,5 +1,10 @@
 ## Changelog
 
+### 2.1
+
+* updated default playback URLs
+* corrected "Apply" button logic (apply setting, rather than toggle playback)
+
 ### 2.0
 
 * rewritten and developer-signed, now available in [App Store](https://apps.apple.com/us/app/beaver-receiver/id6743641943)
