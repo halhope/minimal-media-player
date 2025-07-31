@@ -43,4 +43,4 @@ Provide the file path for the downloaded `groove.sh` at the Application tab:
 
 ![application_details](/Linux/images/application_details.png)
 
-**Note** that on most Linux systems, the application path will just be `/bin/bash`.
+**Note** that on most Linux systems, the application path can just be `/bin/bash`.

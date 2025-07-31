@@ -33,13 +33,17 @@ Click the button to turn the stream on or off:
 ![right_click_icon.png](images/right_click_icon.png)
 _____
 
+# Update 2025-07-30:
+
+* The somafm.com URLs recently changed, so the prepopulated channels are nonfunctional at the moment. I intend to update the links at some point, but I generally try not to use Windows, so drop me a note if it matters to you.
+* User-provided URLs should work in the meantime.
 
 ## Installation
 * Minimum version: Windows 10
 * Build and testing: Windows 10 Pro (21H1), Windows 11 Pro (23H2)
 
 
-### Notes 
+### Notes
 
 * The application is currently unsigned, so clicking "More Info" and choosing "Run anyway" is required the first time the application is launched. View the source code [here](Source).
 * The application allows user input, and barely checks the syntax. It does as little as possible to simply start or stop a selected stream. I'm not responsible for anything else that may happen on your system. View the source code [here](Source).
